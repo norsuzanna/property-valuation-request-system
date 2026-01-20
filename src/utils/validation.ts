@@ -2,10 +2,6 @@ import type { CreateRequestDto } from '../types/request.types';
 
 type ValidationErrors = Record<string, string>;
 
-/**
- * Validates valuation request data
- * Returns an object with error messages for invalid fields
- */
 export const validateRequest = (data: Partial<CreateRequestDto>): ValidationErrors => {
   const errors: ValidationErrors = {};
 

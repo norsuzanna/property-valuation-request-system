@@ -4,7 +4,7 @@
 Nor Suzanna Binti Razali
 
 ## Time Spent
-Approximately 2 hours
+3 hours
 
 ## Tech Stack
 - **React** - UI library
