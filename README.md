@@ -1,7 +1,7 @@
 # Valuation Request System - Frontend Track
 
 ## Candidate
-Nor Suzanna Razali
+Nor Suzanna Binti Razali
 
 ## Time Spent
 Approximately 2 hours
@@ -24,7 +24,7 @@ Approximately 2 hours
 
 ```bash
 # Clone the repository
-git clone [your-repo-url]
+git clone git@github.com:norsuzanna/property-valuation-request-system.git
 cd valuation-request-system
 
 # Install dependencies
