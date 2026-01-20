@@ -316,13 +316,4 @@ For production, would add:
 
 ---
 
-## Contact
-
-For any questions or clarifications about this implementation, please reach out:
-- Email: [your-email@example.com]
-- GitHub: [your-github-username]
-- LinkedIn: [your-linkedin-profile]
-
----
-
 **Note**: This is a technical assessment project demonstrating frontend development capabilities. The mock API simulates backend responses and would be replaced with actual API endpoints in production.
