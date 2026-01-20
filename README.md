@@ -7,9 +7,9 @@ Nor Suzanna Binti Razali
 Approximately 2 hours
 
 ## Tech Stack
-- **React 18.3** - UI library
-- **TypeScript 5.6** - Type safety
-- **Vite 6.0** - Build tool and dev server
+- **React** - UI library
+- **TypeScript** - Type safety
+- **Vite** - Build tool and dev server
 - **Vitest** - Testing framework
 - **React Testing Library** - Component testing
 - **@testing-library/user-event** - User interaction simulation

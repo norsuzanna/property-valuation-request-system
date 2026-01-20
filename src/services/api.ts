@@ -67,6 +67,11 @@ async function login(credentials: LoginCredentials): Promise<AuthResponse> {
         };
         authToken = `token-${Date.now()}`;
         currentUser = user;
+
+        // Store token in localStorage
+        localStorage.setItem('auth_token', authToken);
+        localStorage.setItem('user', JSON.stringify(user));
+
         resolve({ token: authToken, user });
       } else {
         reject(new Error('Invalid credentials'));
@@ -79,6 +84,9 @@ async function login(credentials: LoginCredentials): Promise<AuthResponse> {
  * Logs out the current user
  */
 function logout(): void {
+  localStorage.removeItem('auth_token');
+  localStorage.removeItem('user');
+  
   currentUser = null;
   authToken = null;
 }
